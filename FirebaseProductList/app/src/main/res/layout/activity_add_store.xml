@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddStoreActivity">
+
+    <EditText
+        android:id="@+id/store_name"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Store Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/store_desc"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/store_radius"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/store_lat"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/store_long"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save_store"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/show_list_store"
+        android:text="Show store List"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/show_store_maps"
+        android:text="Maps"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
